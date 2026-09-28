@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "FocusGarden",
+    "slug": "focus-garden",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "plugins": [
+      "expo-notifications"
+    ],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.focusgarden.app",
+      "adaptiveIcon": {
+        "backgroundColor": "#F4F8F1"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
